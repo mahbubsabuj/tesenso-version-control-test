@@ -1,0 +1,66 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "413458c0-84da-11ed-bedf-1b11ea017c67"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "e46bcb60-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "label" : "Sample network",
+    "name" : "A00001D5",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "413458c0-84da-11ed-bedf-1b11ea017c67"
+    },
+    "type" : "TbServiceQueue"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "e46bcb60-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e4d78580-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "413458c0-84da-11ed-bedf-1b11ea017c67"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "e46bcb60-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "loriotSource",
+      "lastUpdateTs" : 1674547110692,
+      "longValue" : null,
+      "strValue" : "Network"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "name",
+      "lastUpdateTs" : 1674547110692,
+      "longValue" : null,
+      "strValue" : "Sample network"
+    } ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "Demo device that is used in Raspberry Pi GPIO control sample application"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "40615150-84da-11ed-bedf-1b11ea017c67"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "42167b60-84da-11ed-bedf-1b11ea017c67"
+    },
+    "label" : null,
+    "name" : "Raspberry Pi Demo Device",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "default",
+    "userId" : {
+      "entityType" : "USER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    }
+  },
+  "credentials" : {
+    "credentialsId" : "RASPBERRY_PI_DEMO_TOKEN",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1672039370996,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1672039370996,
+      "longValue" : 1672039370903,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

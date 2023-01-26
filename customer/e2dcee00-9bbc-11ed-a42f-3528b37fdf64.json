@@ -1,0 +1,116 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : null,
+    "address" : null,
+    "address2" : null,
+    "city" : null,
+    "country" : null,
+    "customerId" : null,
+    "email" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "e2dcee00-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "name" : "BE010103",
+    "ownerId" : null,
+    "parentCustomerId" : null,
+    "phone" : null,
+    "state" : null,
+    "title" : "BE010103",
+    "zip" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "e2dcee00-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e35c3020-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "e2dcee00-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e36557e0-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "e2dcee00-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e3670590-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "e2dcee00-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e368b340-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "e2dcee00-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e36aaf10-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "e2dcee00-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e36d4720-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "loriotSource",
+      "lastUpdateTs" : 1674547108194,
+      "longValue" : null,
+      "strValue" : "Application"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "name",
+      "lastUpdateTs" : 1674547108194,
+      "longValue" : null,
+      "strValue" : "ÖBB St. Pölten Füllstand Dieseltank"
+    } ]
+  }
+}

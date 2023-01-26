@@ -1,0 +1,56 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : null,
+    "address" : null,
+    "address2" : null,
+    "city" : null,
+    "country" : null,
+    "customerId" : null,
+    "email" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "e36f1be0-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "name" : "BE01010C",
+    "ownerId" : null,
+    "parentCustomerId" : null,
+    "phone" : null,
+    "state" : null,
+    "title" : "BE01010C",
+    "zip" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "e36f1be0-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e3fdee60-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "loriotSource",
+      "lastUpdateTs" : 1674547109094,
+      "longValue" : null,
+      "strValue" : "Application"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "name",
+      "lastUpdateTs" : 1674547109094,
+      "longValue" : null,
+      "strValue" : "Fieldtest Gerät"
+    } ]
+  }
+}

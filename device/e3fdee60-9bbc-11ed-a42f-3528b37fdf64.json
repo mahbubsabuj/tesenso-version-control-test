@@ -1,0 +1,91 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "40615150-84da-11ed-bedf-1b11ea017c67"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "e3fdee60-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "label" : "Adeunis Fieldtester",
+    "name" : "0018B2000002628B",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "default",
+    "userId" : {
+      "entityType" : "USER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    }
+  },
+  "credentials" : {
+    "credentialsId" : "ySxIQ4gB4F4nnAU2jZWr",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "e36f1be0-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e3fdee60-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1674551027902,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1674551027902,
+      "longValue" : 1674551027824,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "loriotParentId",
+      "lastUpdateTs" : 1674547110007,
+      "longValue" : null,
+      "strValue" : "BE01010C"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "loriotSource",
+      "lastUpdateTs" : 1674547110007,
+      "longValue" : null,
+      "strValue" : "Device"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

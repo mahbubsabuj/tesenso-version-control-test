@@ -1,0 +1,112 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : true
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "413458c0-84da-11ed-bedf-1b11ea017c67"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "e4d5b0c0-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "e4d78580-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "label" : "9C-65-F9-FF-FF-4F-D3-07",
+    "name" : "9C65F9FFFF4FD307",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "413458c0-84da-11ed-bedf-1b11ea017c67"
+    },
+    "softwareId" : null,
+    "type" : "miro Edge",
+    "userId" : {
+      "entityType" : "USER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    }
+  },
+  "credentials" : {
+    "credentialsId" : "XsXwu6uIEzeU1ceKHHvU",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "e46bcb60-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e4d78580-9bbc-11ed-a42f-3528b37fdf64"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1674551027912,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "connectionStatus",
+      "lastUpdateTs" : 1674547111394,
+      "longValue" : null,
+      "strValue" : "online"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1674551027912,
+      "longValue" : 1674551027824,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "loriotParentId",
+      "lastUpdateTs" : 1674547111394,
+      "longValue" : null,
+      "strValue" : "A00001D5"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "loriotSource",
+      "lastUpdateTs" : 1674547111394,
+      "longValue" : null,
+      "strValue" : "Gateway"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "mac",
+      "lastUpdateTs" : 1674547111394,
+      "longValue" : null,
+      "strValue" : "9C:65:F9:4F:D3:07"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
